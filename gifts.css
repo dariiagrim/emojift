@@ -1,0 +1,253 @@
+.main {
+  position: relative;
+  width: 1300px;
+  height: 2100px;
+  margin: auto;
+}
+.main__block1 {
+  position: absolute;
+  margin: auto;
+  top: -200px;
+  height: 2400px;
+}
+
+.outside__block1 {
+  background-color: #f4d0d9;
+  border-radius: 1%;
+  font-family: "Roboto", sans-serif;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.block1__main-text {
+  font-weight: 700;
+  font-size: 40px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.block1__description-text {
+  font-weight: 400;
+  font-size: 36px;
+  width: 983px;
+  height: 117px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.block1__sort-text {
+  width: 196px;
+  height: 35px;
+  font-size: 30px;
+  margin-bottom: 34px;
+}
+
+.block1__filters {
+  width: 1212px;
+  height: 50px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block1__filter {
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 28px;
+  border: 0;
+  background: url(./img/gifts/sort_block.png);
+  text-align: center;
+}
+
+.selected-filter {
+  background: url(./img/gifts/selected_sort_block.png);
+  width: 155px;
+  height: 55px;
+}
+
+.block1__products-container {
+  display: grid;
+  width: 1212px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  margin-bottom: 90px;
+}
+
+.product {
+  width: 280px;
+  height: 420px;
+  background: url(./img/gifts/product_block.png);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.product__name {
+  font-size: 18px;
+  width: 154px;
+  height: 40px;
+  text-align: center;
+}
+
+.product__favourite-icon {
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.product__cart-icon {
+  width: 35px;
+  height: 28px;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+}
+
+.product__image {
+  width: 180px;
+  height: 200px;
+}
+
+.product__price {
+  width: 200px;
+  height: 40px;
+  font-size: 24px;
+  color: #000;
+  background: url(./img/gifts/no_sale_price.png);
+  border: 0;
+}
+
+.no-sale-price {
+  width: 200px;
+  height: 30px;
+  background: url(./img/gifts/price_block.png);
+  text-decoration: line-through 3px #f50058;
+  color: #000;
+}
+
+.product__sale-price {
+  width: 200px;
+  height: 30px;
+  font-size: 24px;
+  border: 0;
+  text-align: center;
+  background: url(./img/gifts/on-sale-price.png);
+  color: #000;
+}
+
+.sale-amount {
+  width: 65px;
+  height: 36px;
+  background: url(./img/gifts/sale_block.png);
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.favourite-selected {
+  background: url(./img/gifts/heart_fill.png);
+}
+
+.cart-selected {
+  background: url(./img/gifts/cart_fill.png);
+}
+
+.block1__page-buttons {
+  width: 1212px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-button {
+  width: 45px;
+  height: 45px;
+  background: url(./img/gifts/back_button.png);
+  border: 0;
+}
+
+.next-button {
+  width: 45px;
+  height: 45px;
+  background: url(./img/gifts/next_button.png);
+  border: 0;
+}
+
+.page-button {
+  width: 60px;
+  height: 60px;
+  border: 0;
+  background: #fd8fb0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+
+.selected-page {
+  border: 5px solid #f50058;
+}
+
+.main__block2 {
+  position: absolute;
+  margin: auto;
+  top: 1836px;
+  height: 757px;
+  z-index: 1000;
+}
+
+.outside__block2 {
+  background: #f50058;
+  border-radius: 1%;
+  font-family: "Roboto", sans-serif;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+
+.block2__text {
+  width: 420px;
+  height: 36px;
+  text-align: center;
+  font-size: 36px;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.block2__recents {
+  width: 1212px;
+  height: 500px;
+  background: url(./img/gifts/recents.png);
+  display: flex;
+  align-items: center;
+}
+
+.product-recent {
+  margin-left: 30px;
+}
+
+.gifts-footer {
+  top: 2841px;
+}
