@@ -190,3 +190,105 @@
     top: 1414px;
   }
 }
+
+@media only screen and (max-width: 660px) {
+  .main {
+    width: 280px;
+    height: 451px;
+  }
+  .main__block1 {
+    top: -25px;
+    height: 496px;
+  }
+
+  .outside__block1 {
+    padding-top: 10px;
+  }
+
+  .block1__main-text {
+    font-size: 12px;
+    width: 61px;
+    height: 16px;
+    margin-bottom: 15px;
+  }
+
+  .block1__contacts {
+    width: 250px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .block1__contact-info {
+    width: 250px;
+    height: 53px;
+    flex-direction: row;
+  }
+
+  .block1__contact-mobile {
+    width: 91px;
+    height: 53px;
+  }
+
+  .mobile-description {
+    width: 75px;
+    height: 13px;
+    font-size: 11px;
+  }
+
+  .mobile {
+    width: 91px;
+    height: 29px;
+    font-size: 11px;
+  }
+
+  .block1__contact-email {
+    width: 99px;
+    height: 36px;
+  }
+
+  .email-description {
+    width: 47px;
+    height: 15px;
+    font-size: 11px;
+  }
+
+  .email {
+    width: 99px;
+    height: 10px;
+    font-size: 11px;
+  }
+
+  .block1__working-hours {
+    width: 97px;
+    height: 32px;
+    font-size: 11px;
+  }
+
+  .block1__address-info {
+    width: 250px;
+    height: 135px;
+  }
+
+  .address {
+    width: 142px;
+    height: 22px;
+    font-size: 11px;
+  }
+
+  .map-image {
+    width: 250px;
+    height: 97px;
+    background: url(./img/contacts/map3.png);
+  }
+
+  .block1__image {
+    width: 250px;
+    height: 166px;
+  }
+
+  .contacts-footer {
+    top: 526px;
+  }
+}
