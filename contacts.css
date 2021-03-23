@@ -1,0 +1,192 @@
+.main {
+  position: relative;
+  width: 1300px;
+  height: 1058px;
+  margin: auto;
+}
+.main__block1 {
+  position: absolute;
+  margin: auto;
+  top: -200px;
+  height: 1345px;
+  z-index: 1000;
+}
+
+.outside__block1 {
+  background-color: #f4d0d9;
+  border-radius: 1%;
+  font-family: "Roboto", sans-serif;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.block1__main-text {
+  font-size: 40px;
+  width: 365px;
+  height: 43px;
+  margin: auto;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.block1__contacts {
+  width: 1212px;
+  height: 270px;
+  display: flex;
+  margin-bottom: 55px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block1__contact-info {
+  width: 227px;
+  height: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.block1__contact-mobile {
+  width: 227px;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.mobile-description {
+  width: 227px;
+  height: 33px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.mobile {
+  width: 227px;
+  height: 75px;
+  font-size: 24px;
+}
+
+.block1__contact-email {
+  width: 222px;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.email-description {
+  width: 222px;
+  height: 33px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.email {
+  width: 227px;
+  height: 37px;
+  font-size: 24px;
+}
+
+.block1__working-hours {
+  width: 247px;
+  height: 101px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.block1__address-info {
+  width: 354px;
+  height: 263px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.address {
+  width: 279px;
+  height: 51px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.map-image {
+  width: 354px;
+  height: 170px;
+  background: url(./img/contacts/map1.png);
+}
+
+.contacts-footer {
+  top: 1408px;
+}
+@media only screen and (max-width: 1290px) {
+  .main {
+    width: 720px;
+    height: 1164px;
+  }
+  .main__block1 {
+    top: -50px;
+    height: 1283px;
+  }
+
+  .outside__block1 {
+    padding-top: 25px;
+  }
+
+  .block1__main-text {
+    font-size: 30px;
+    width: 139px;
+    height: 43px;
+    margin-bottom: 30px;
+  }
+
+  .block1__contacts {
+    width: 654px;
+    height: 658px;
+    display: flex;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+
+  .mobile-description {
+    height: 28px;
+    font-size: 24px;
+  }
+
+  .email-description {
+    height: 28px;
+    font-size: 24px;
+  }
+
+  .block1__working-hours {
+    width: 224px;
+    font-size: 24px;
+  }
+
+  .block1__address-info {
+    width: 654px;
+    height: 364px;
+    flex-direction: column-reverse;
+  }
+
+  .map-image {
+    width: 654px;
+    height: 282px;
+    background: url(./img/contacts/map2.png);
+  }
+
+  .block1__image {
+    width: 654px;
+    height: 436px;
+  }
+
+  .contacts-footer {
+    top: 1414px;
+  }
+}
